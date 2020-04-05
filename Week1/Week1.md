@@ -5,7 +5,7 @@ This question uses the fact that A XOR A = 0. So, if you take cummulative XOR of
 [*Solution*](single_number.c++)
 
 * ### Day 2: [Happy Number]([https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3284/](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3284/))
-Digit sum is adding the digits of a number. It is mathematically proven that digit sums once they reach one of these numbers [145,42,30,4,16,37,58,89] they keep infinitly repeating. So, you solve this question by repeatedly calculating the square digit sum and once you reach one of these numbers you know the number is not Happy :sob:, or until you reach one. Another solution would be to use a visiting map, and if you reach a number once, you know you are stuck in a loop and you return false.
+Digit sum is adding the digits of a number. It is mathematically proven that digit sums once they reach one of these numbers [145,42,30,4,16,37,58,89] they keep infinitely repeating. So, you solve this question by repeatedly calculating the square digit sum and once you reach one of these numbers you know the number is not Happy :sob:, or until you reach 1 and find that it is happy. Another solution would be to use a visiting map, and if you reach a number once, you know you are stuck in a loop and you return false.
 [*Solution*](happy_number.c++)
 
 * ### Day 3: [Maximum Subarray]([https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3285/](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3285/))
