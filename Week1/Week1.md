@@ -19,3 +19,11 @@ In this question, you keep a pointer on the last zero you find, and when you fin
 * ### Day 5: [Best time to buy and sell 2]([https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3287/](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3287/))
 Here you can observe that you want to look for local_min and local_max to add the difference between them. Moreover, if you realize that you can only take the difference between the numbers as long as they are increasing, this would give you a cleaner code.
 [*Solution*](best_time_to_buy_sell_2.c++)
+
+*  ### Day 6: [Group Anagrams](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3288/)
+An anagram is a string with the same letters ordered differently. The solution here sorts each string to get all letters ordered then checks if another string with these letters exists, if yes you take its index and add it to its vector, if not you create a new vector and put it in it.
+*Complexity*: `O(N K Log K)` (K is string size, N is vector size).
+[*Solution*](group_anagrams_sol_1.c++)
+A faster solution would be to remove the sort and create a vector to count letters in each string, then create a string out of this vector by separating each count of a letter by a #, then using the map on this created string to find out if you have a previous anagram or not.
+*Complexity*: `O(N K)` (K is string size, N is vector size).
+[*Solution*](group_anagrams_sol_2.c++)
