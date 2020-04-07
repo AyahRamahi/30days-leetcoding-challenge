@@ -27,3 +27,7 @@ An anagram is a string with the same letters ordered differently. The solution h
 A faster solution would be to remove the sort and create a vector to count letters in each string, then create a string out of this vector by separating each count of a letter by a #, then using the map on this created string to find out if you have a previous anagram or not.
 *Complexity*: `O(N K)` (K is string size, N is vector size).
 [*Solution*](group_anagrams_sol_2.c++)
+
+* ### Day 7: [Counting Elements](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3289/)
+You can use an extra array to know if a number exists or not. Then you loop over your array and if the number+1 exists then you add 1 to the result;
+[*Solution*](counting_elements.c++)
