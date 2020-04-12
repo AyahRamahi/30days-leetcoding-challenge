@@ -5,9 +5,12 @@ If you use 2 pointers one slow and one fast. The slow one moves 1 step at a time
 [*Solution*](middle_of_the_linked_list.c++)
 
 * ### Day 2: [Backspace String Compare](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3291/)
-You walk both strings starting from the end to the beginning, you create new strings the contain only the undeleted charachaters, then you see if both new strings are equal or not. (continue)
-*Complexity*: `O(N)`
-[*Solution*](middle_of_the_linked_list.c++)
+In the first solution, you walk both strings starting from the end to the beginning, you create new strings the contain only the undeleted charachaters, then you see if both new strings are equal or not.
+In the second solution, you save the space of creating new strings, you walk from the end of both strings and in each one of them, you look for a undeleted characher, then you check if they are not equal your return false, otherwise, you check if one of them is less than zero and the other is larger than or equal to zero(one of them finished and the other is not) then you return false, if not any of these cases you decrement both pointers and go again.
+*Space Complexity*: `O(N + M)`
+[*Solution*](middle_of_the_linked_list_1.c++)
+*Space Complexity*: `O(1)`
+[*Solution*](middle_of_the_linked_list_2.c++)
 
 * ### Day 3: [Min Stack](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3292/)
 You create two stacks: main_stack that has the values added or removes, and min_value_stack which saves the min value for each value pushed to the main_stack, so you can always have the minimum value when asked for.(continue)
