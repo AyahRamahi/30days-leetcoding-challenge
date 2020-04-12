@@ -10,5 +10,13 @@ You walk both strings starting from the end to the beginning, you create new str
 [*Solution*](middle_of_the_linked_list.c++)
 
 * ### Day 3: [Min Stack](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3292/)
-You create two stacks: main_stack that has the values added or removes, and min_value_stack which saves the min value for each value pushed to the main_stack, so you can always have the minimum value when asked for.
+You create two stacks: main_stack that has the values added or removes, and min_value_stack which saves the min value for each value pushed to the main_stack, so you can always have the minimum value when asked for.(continue)
 [*Solution*](min_stack.c++)
+
+* ### Day 4: [Diameter of Binary Tree](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3293/)
+
+[*Solution*]()
+
+* ### Day 5: [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/)
+Use a priority queue to keep the values sorted, then each time take 2 numbers from it and push again the difference if not zero.(continue)
+[*Solution*](last_stone_weight.c++)
