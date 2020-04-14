@@ -23,3 +23,11 @@ You create two stacks: main_stack that has the values added or removes, and min_
 * ### Day 5: [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/)
 Use a priority queue to keep the values sorted, then each time take 2 numbers from it and push again the difference if not zero.(continue)
 [*Solution*](last_stone_weight.c++)
+
+* ### Day 6: [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/)
+
+[*Solution*]()
+
+* ### Day 7: [Perform String Shifts](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3299/)
+If you notice that 1 left shift cancels 1 right shift, so you want to find the sum of all shifts and know if it is to the right or to the left (skip full rotation by taking the mod). Then you can use the string rotation trick, where you add the string to itself (ex:`abc` becomes `abcabc`), and then return the result depending on the side of rotation (find the relation).
+[*Solution*](perform_string_shifts.c++)
