@@ -17,8 +17,8 @@ You create two stacks: main_stack that has the values added or removes, and min_
 [*Solution*](min_stack.c++)
 
 * ### Day 4: [Diameter of Binary Tree](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3293/)
-
-[*Solution*]()
+The idea is to realize that surely one node will be the connecting of two paths underneath it to get the max length. So, on each node you calculate the sum of lengths of the two paths(only two because it's a binary tree), then you maximize the output for all nodes. On each node, you want to give the parent that longest path you can walk underneath it, so you return the maximum of the right and left paths.
+[*Solution*](diameter_of_binary_tree.c++)
 
 * ### Day 5: [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/)
 Use a priority queue to keep the values sorted, then each time take 2 numbers from it and push again the difference if not zero.(continue)
