@@ -12,3 +12,6 @@ I will provide my solutions in addition to a short description of each one as fo
 * [Week 3](/Week3/Week3.md)
 * [Week 4]()
 * [Week 5]()
+
+
+#### Leetcode created another 30 days challenge during May [here](), and solutions can be found [here]().
