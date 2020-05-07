@@ -8,9 +8,9 @@ Straight binary search looking for the bad version and using the API once each l
 Using a boolean array, mark all Jewels that you have, if you see any of them in the Stones, count them. Using a boolean array of size (`26 * 2 = 52`) is considered O(1) memory.
 [*Solution*](jewels_and_stones.c++s)
 
-* ### Day 3: []()
-
-[*Solution*]()
+* ### Day 3: [Ransom Note](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/)
+Using O(1) memory (fixed size array) to count the number of available letters, then checking if you have enough letters to make the ransom note or  not.
+[*Solution*](ransom_note.c++)
 
 * ### Day 4: []()
 
