@@ -20,9 +20,11 @@ Using O(1) memory (fixed size array) to count the number of available letters, t
 Use a fixed size array to count the number of letters you have, the first one with frequency equals 1, return its index. Don't forget to return -1 if you don't find any.
 [*Solution*](first_unique_character_in_a_string.c++)
 
-* ### Day 6: []()
-
-[*Solution*]()
+* ### Day 6: [Majority Element](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3321/)
+This question has several solutions. The first is to use a map (complexity = `O(log n)`) to count the frequency of each number and find the answer, this solution has complexity = `O(n log n)` with extra space because of using the map. Another solution would be to sort the numbers (complexity = `O(n log n)`), and find the length of each consecutive block with the same number to find the answer, this solution has complexity = `O(n log n)`. (continue)
+[*Solution 1*](majority_element_1.c++)
+[*Solution 2*](majority_element_2.c++)
+[*Solution 3*]()
 
 * ### Day 7: []()
 
