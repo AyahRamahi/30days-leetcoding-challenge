@@ -14,4 +14,9 @@ I will provide my solutions in addition to a short description of each one as fo
 * [Week 5]()
 
 
-#### Leetcode created another 30 days challenge during May [here](), and solutions can be found [here]().
+#### Leetcode created another 30 days challenge during May [here](), and solutions can be found here:
+* [Week 1](/May Challenge/Week1/Week1.md)
+* [Week 2](/May Challenge/Week2/Week2.md)
+* [Week 3]()
+* [Week 4]()
+* [Week 5]()
