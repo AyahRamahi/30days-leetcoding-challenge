@@ -8,9 +8,9 @@ Create the line equation which is `y = m * (x - x1) + y1`, where m is the slope,
 A perfect square is a number that is made be squaring a whole number. The solution is to take only the integer part of the sqrt of the number and squaring it, and check if it gives you the original number or not.
 [*Solution*](valid_perfect_square.c++)
 
-* ### Day 3: []()
-
-[*Solution*]()
+* ### Day 3: [Find the Town Judge](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3325/)
+You want to find the person who is trusted by `N-1` others, and trusts `0`. You can have 2 arrays, one to count the number of trusted people for each person, and the other to find the number of people trusted by them. Also, you can save space and use one array only, you add 1 when the person is trusted, and subtract 1 when the person trusts another one.
+[*Solution*](find_the_town_judge.c++)
 
 * ### Day 4: []()
 
