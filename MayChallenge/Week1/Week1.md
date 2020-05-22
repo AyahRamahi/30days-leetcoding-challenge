@@ -27,5 +27,5 @@ This question has several solutions. The first is to use a map (complexity = `O(
 [*Solution 3*]()
 
 * ### Day 7: [Cousins in Binary Tree](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3322/)
-In this question you should find the depth of each node and its parent, and they will be cousins only if they have same depth and different parents. (continue)
+In this question you should find the depth of each node and its parent, and they will be cousins only if they have same depth and different parents. (continue, pass by reference details)
 [*Solution*](cousins_in_binary_tree.c++)
