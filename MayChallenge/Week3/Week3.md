@@ -12,9 +12,9 @@ The idea is to remove each odd node from its place and place it at the end of th
 (continue) corner cases (does not exceed means it can be zero)
 [*Solution*](find_all_anagrams_in_a_string.c++)
 
-* ### Day 4: []()
-
-[*Solution*]()
+* ### Day 4: [Permutation in String](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3333/)
+(continue)
+[*Solution*](permutaion_in_string.c++)
 
 * ### Day 5: []()
 
