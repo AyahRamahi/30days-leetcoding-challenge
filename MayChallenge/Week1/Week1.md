@@ -12,9 +12,9 @@ Using a boolean array, mark all Jewels that you have, if you see any of them in 
 Using O(1) memory (fixed size array) to count the number of available letters, then checking if you have enough letters to make the ransom note or  not.
 [*Solution*](ransom_note.c++)
 
-* ### Day 4: []()
-
-[*Solution*]()
+* ### Day 4: [Number Complement](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/)
+(continue)
+[*Solution*](number_complement.c++)
 
 * ### Day 5: [First Unique Character in a String](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/)
 Use a fixed size array to count the number of letters you have, the first one with frequency equals 1, return its index. Don't forget to return -1 if you don't find any.
