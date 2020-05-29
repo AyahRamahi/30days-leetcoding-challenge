@@ -16,9 +16,9 @@ You want to find the person who is trusted by `N-1` others, and trusts `0`. You 
 This question can be solved using DFS, where you find out what is the oldColor you have, and look for every cell your current cell is connected to (4 directions only) that has the same color, and change it to newColor. Note that you should only do that if oldColor and newColor are not equal, because if they are, you will be stuck in an infinite loop and you already don't have to change anything.
 [*Solution*](flood_fill.c++)
 
-* ### Day 5: []()
-
-[*Solution*]()
+* ### Day 5: [Single Element in a Sorted Array](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3327/)
+(continue)
+[*Solution*](single_element_in_a_sorted_array.c++)
 
 * ### Day 6: []()
 
