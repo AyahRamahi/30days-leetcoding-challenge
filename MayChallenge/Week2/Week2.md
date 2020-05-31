@@ -20,9 +20,9 @@ This question can be solved using DFS, where you find out what is the oldColor y
 (continue)
 [*Solution*](single_element_in_a_sorted_array.c++)
 
-* ### Day 6: []()
-
-[*Solution*]()
+* ### Day 6: [Remove K Digits](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3328/)
+(continue)
+[*Solution*](remove_k_digits.c++)
 
 * ### Day 7: []()
 
