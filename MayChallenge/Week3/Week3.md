@@ -16,9 +16,9 @@ The idea is to remove each odd node from its place and place it at the end of th
 (continue)
 [*Solution*](permutaion_in_string.c++)
 
-* ### Day 5: []()
-
-[*Solution*]()
+* ### Day 5: [Online Stock Span](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3334)
+(continue)
+[*Solution*](online_stock_span.c++)
 
 * ### Day 6: []()
 
