@@ -5,6 +5,15 @@ public:
         double x1 = coordinates[0][0];
         double y1 = coordinates[0][1];
 
+        int check = 1;
+        for(vector<int> point: coordinates)
+            if(point[0] != coordinates[0][0]){
+                check =0;
+                break;
+            }
+        if(check)
+            return 1;
+
         for(vector<int> point: coordinates){
             double temp = slop * (point[0]-x1) + y1;
             if (temp != (double)point[1])
