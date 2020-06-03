@@ -17,9 +17,9 @@ This question can be solved using two approaches, the first is using Dijkstra to
 [*Solution*](minimum_path_sum_1.c++)
 [*Solution*](minimum_path_sum_2.c++)
 
-* ### Day 5: []()
-
-[*Solution*]()
+* ### Day 5: [Search in Rotated Sorted Array](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/530/week-3/3304)
+`The difficulty of applying binary search to this problem lies in how to determine the correct half for target.` You should notice that if you solve this using binary search, you will face the problem of having an array that is not sorted,  but if you notice that if you keep splitting the array in half, you will always get a sorted side which is easy to check if the number can be inside it or not (by checking if the target is between the low and the high ends of the half you have), if it can be found inside it you call the function again for that side, if it can't then you try the other half. You should make sure that when you find the target you return its index, and that if you can't find it and both ends are on the same number then it can't be found.
+[*Solution*](search_in_rotated_sorted_array.c++)
 
 * ### Day 6: []()
 
