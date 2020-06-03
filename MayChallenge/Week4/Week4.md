@@ -25,6 +25,6 @@ Bipartition problem is a common one. You create a graph from the dislikes nodes 
 
 [*Solution*](possible_bipartition.c++)
 
-* ### Day 7: []()
-
-[*Solution*]()
+* ### Day 7: [Counting Bits](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3343)
+(continue)
+[*Solution*](counting_bits.c++)
