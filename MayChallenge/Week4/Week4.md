@@ -16,9 +16,9 @@
 (continue)
 [*Solution*](uncrossed_lines.c++)
 
-* ### Day 5: []()
-
-[*Solution*]()
+* ### Day 5: [Contiguous Array](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3341/)
+Solved before in April
+[*Solution*](contiguous_array.c++)
 
 * ### Day 6: [Possible Bipartition](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/537/week-4-may-22nd-may-28th/3342/)
 Bipartition problem is a common one. You create a graph from the dislikes nodes you have, after that you start coloring the nodes
