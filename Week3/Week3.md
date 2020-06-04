@@ -4,9 +4,9 @@
 Because you want the product of all number except self, you may need to think of finding the product of all numbers left to a number, and product of all numbers right to a number, then multiplying both of these for each numbers to find the result. The solution does this without using 2 extra arrays, first you loop from left to right to find the product of numbers left to each one (the number left to index 0 is assumed 1), then you loop from right to left to multiply the values already in the array with the product of numbers to the right of each number (the number calculated in the temp variable) and result is put in the same array (the number right to index n-1 is assumed 1).
 [*Solution*](product_of_array_except_self.c++)
 
-* ### Day 2: []()
-
-[*Solution*]()
+* ### Day 2: [Valid Parenthesis String](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/530/week-3/3301/)
+(continue)
+[*Solution*](valid_parenthesis_string.c++)
 
 * ### Day 3: [Number of Islands](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/530/week-3/3302/)
 This question can be solved using the idea of finding the number of disjoint sets, you keep looking for any island (1) that you call DFS on to mark all its blocks as visited (convert them to 0).
