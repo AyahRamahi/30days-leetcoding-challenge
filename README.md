@@ -10,13 +10,5 @@ I will provide my solutions in addition to a short description of each one as fo
 * [Week 1](/Week1/Week1.md)
 * [Week 2](/Week2/Week2.md)
 * [Week 3](/Week3/Week3.md)
-* [Week 4]()
-* [Week 5]()
-
-
-#### Leetcode created another 30 days challenge during May [here](), and solutions can be found here:
-* [Week 1](/MayChallenge/Week1/Week1.md)
-* [Week 2](/MayChallenge/Week2/Week2.md)
-* [Week 3]()
-* [Week 4]()
-* [Week 5]()
+* [Week 4](/Week4/Week4.md)
+* [Week 5](/Week5/Week5.md)
